@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+              <select name="doctor" id="doctor" class="form-control" onchange="dr()" >
+                <option value="">Select Division</option>
+                <option value="#">Dhaka  </option>
+                <option value="#"> Chittagong  </option>
+                <option value="#"> Rajshahi  </option>
+                <option value="#"> Khulna </option>
+                <option value="#"> Barisal  </option>
+                <option value="#"> Sylhet </option>
+                <option value="#"> Rangpur  </option>
+                <option value="#"> Mymensingh </option>
+               
+              </select>
+             
+       </div>
+            <br><br><br>
+
+
+     <div id="output">
+       </div>
+            
+          
+             
+             
+             
+    <script>
+        function dr(){
+            var m = document.getElementById("doctor").value;
+            document.getElementById("output").innerHTML=m;
+
+        }
+    </script>
+</body>
+</html>

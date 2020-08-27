@@ -1,0 +1,50 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#back{
+  width: 100%;
+    height: 95vh;
+    background: url(../img/amb.png) top center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 33PX;
+
+}
+.hadding{
+  color: darkred;
+    padding: 2px;
+    margin: 5px;
+}
+.list{
+    font-size: 38px;
+    /* margin: 20px; */
+   
+    
+}
+li {
+        
+/* background-color: seashell; */
+margin: 4px;
+width: fit-content;
+padding: 8px;
+color: white;
+margin: 12px;
+}
+ul{
+  /* background-color: aliceblue; */
+  list-style-type: circle;
+}
+a{
+    color: rebeccapurple;
+}
+#s{
+  width: 100%;
+  height: 95vh;
+  background: url(assets/img/hh.jpg) top center;
+  
+  background-size: cover;
+  position: relative;
+  margin-bottom: 33PX;
+}
